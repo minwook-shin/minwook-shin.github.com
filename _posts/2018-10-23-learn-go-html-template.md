@@ -19,6 +19,7 @@ import (
 ```go
 func main() {
 	var source = `
+{% raw %}
 	<!DOCTYPE html>
 	<html>
 		<head>
@@ -28,7 +29,9 @@ func main() {
 		<body>
 			{{range .Items}}<div>{{ . }}</div>{{end}}
 		</body>
-	</html>`
+	</html>
+{% endraw %}
+`
 ```
 
 html 코드를 문자열로 저장합니다.

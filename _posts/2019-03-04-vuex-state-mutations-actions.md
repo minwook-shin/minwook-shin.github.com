@@ -157,8 +157,10 @@ methods 속성에 버튼을 누르면 store의 action을 호출해주는 로직�
 
 ```html
 <div class="hello">
+{% raw %}
   <div>{{this.$store.state.text}}</div>
   <div>{{this.$store.state.num}}</div>
+{% endraw %}
 </div>
 ```
 

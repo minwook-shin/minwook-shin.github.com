@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 코틀린으로 작성한 안드로이드 오레오 이상 버전에서 필요한 권한 요청 사용하기
+permalink: /posts/android-oreo-permissions/
 ---
 
 안드로이드 6.0 오레오부터 권한을 요청해야 되는 방식이 존재합니다.

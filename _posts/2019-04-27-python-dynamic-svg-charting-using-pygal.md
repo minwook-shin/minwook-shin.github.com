@@ -136,6 +136,8 @@ def line_route():
 
 ```html
 <div id="chart">
+{% raw %}
   <embed type="image/svg+xml" src="{{" chart|safe }} />
+{% endraw %}
 </div>
 ```

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 코틀린 프로젝트로 안드로이드에서 KPermissions 라이브러리 사용해보기
+permalink: /posts/kpermissions-library/
 ---
 
 오늘은 코틀린 안드로이드 프로젝트에서 KPermissions 라이브러리를 쉽게 사용해보려 합니다.

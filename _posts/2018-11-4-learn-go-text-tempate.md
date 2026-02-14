@@ -21,6 +21,7 @@ os 패키지로 표준 출력을 만들 수 있습니다.
 ```go
 func main() {
 	var letter = `
+{% raw %}
 {{.Name}}님께,
 {{if .Option}}
 이 텍스트는 선택된 사람들만 보입니다.
@@ -32,6 +33,7 @@ func main() {
 {{end}}
 감사합니다,
 gopher.
+{% endraw %}
 `
 ```
 
