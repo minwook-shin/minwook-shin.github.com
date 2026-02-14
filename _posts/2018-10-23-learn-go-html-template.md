@@ -36,9 +36,9 @@ func main() {
 
 html 코드를 문자열로 저장합니다.
 
-향후 구조체를 넣으면 값을 출력해야 되기 때문에 ```{{.Title}}``` 과 같이 값을 넣을 공간을 템플릿으로 만들어줍니다.
+향후 구조체를 넣으면 값을 출력해야 되기 때문에 ```{% raw %}{{.Title}}{% endraw %}``` 과 같이 값을 넣을 공간을 템플릿으로 만들어줍니다.
 
-만약 for range문 처럼 모든 내용을 출력하고 싶으면 ```range .Items```으로 시작해서 반복할 태그를 작성하고, ```end```로 닫아주면 됩니다.
+만약 for range문 처럼 모든 내용을 출력하고 싶으면 ```{% raw %}range .Items{% endraw %}```으로 시작해서 반복할 태그를 작성하고, ```{% raw %}end{% endraw %}```로 닫아주면 됩니다.
 
 ```go
 	webTemplate, _ := template.New("webpage").Parse(source)

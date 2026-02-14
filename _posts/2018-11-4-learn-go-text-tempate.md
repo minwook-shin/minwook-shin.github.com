@@ -39,7 +39,7 @@ gopher.
 
 템플릿을 만들어서 변수에 넣어줍니다.
 
-Name이라는 구조체의 맴버 필드에 값을 넣으면 {{.Name}}에 원하는 문자가 나타나고, if else를 이용하여 true와 false로 원하는 문자열을 출력하게 할 수 있습니다.
+Name이라는 구조체의 맴버 필드에 값을 넣으면 {% raw %}{{.Name}}{% endraw %}에 원하는 문자가 나타나고, if else를 이용하여 true와 false로 원하는 문자열을 출력하게 할 수 있습니다.
 
 ```go
 	type textTemplate struct {
