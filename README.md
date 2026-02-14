@@ -1,16 +1,43 @@
-# minwook-shin's tech blog
-used Jekyll Now.
+# Chirpy Starter
 
-## Link
+[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
+[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
 
-https://minwook-shin.github.io
+When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders
+`_data`, `_layouts`, `_includes`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file
+from the theme's gem. If you have ever installed this theme gem, you can use the command
+`bundle info --path jekyll-theme-chirpy` to locate these files.
 
-----
-### Credits
+The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being
+able to enjoy the out-of-the-box experience when using feature-rich themes.
 
-- [Jekyll](https://github.com/jekyll/jekyll) - Thanks to its creators, contributors and maintainers.
-- [SVG icons](https://github.com/neilorangepeel/Free-Social-Icons) - Thanks, Neil Orange Peel. They're beautiful.
-- [Solarized Light Pygments](https://gist.github.com/edwardhotchkiss/2005058) - Thanks, Edward.
-- [Joel Glovier](http://joelglovier.com/writing/) - Great Jekyll articles. I used Joel's feed.xml in this repository.
-- [David Furnes](https://github.com/dfurnes), [Jon Uy](https://github.com/jonuy), [Luke Patton](https://github.com/lkpttn) - Thanks for the design/code reviews.
-- [Bart Kiers](https://github.com/bkiers), [Florian Simon](https://github.com/vermluh), [Henry Stanley](https://github.com/henryaj), [Hun Jae Lee](https://github.com/hunjaelee), [Javier Cejudo](https://github.com/javiercejudo), [Peter Etelej](https://github.com/etelej), [Ben Abbott](https://github.com/jaminscript), [Ray Nicholus](https://github.com/rnicholus), [Erin Grand](https://github.com/eringrand), [Léo Colombaro](https://github.com/LeoColomb), [Dean Attali](https://github.com/daattali), [Clayton Errington](https://github.com/cjerrington), [Colton Fitzgerald](https://github.com/coltonfitzgerald), [Trace Mayer](https://github.com/sunnankar) - Thanks for your [fantastic contributions](https://github.com/barryclark/jekyll-now/commits/master) to the project!
+To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your
+Jekyll site. The following is a list of targets:
+
+```shell
+.
+├── _config.yml
+├── _plugins
+├── _tabs
+└── index.html
+```
+
+To save you time, and also in case you lose some files while copying, we extract those files/configurations of the
+latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
+
+## Usage
+
+Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
+
+## Contributing
+
+This repository is automatically updated with new releases from the theme repository. If you encounter any issues or want to contribute to its improvement, please visit the [theme repository][chirpy] to provide feedback.
+
+## License
+
+This work is published under [MIT][mit] License.
+
+[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
+[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
+[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
+[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
